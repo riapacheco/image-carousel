@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@riapacheco/yutes/main.scss';         // Reset default styles & access shorthand classes
+@import '~@riapacheco/yutes/season/two.scss';   // Access colors
+
+html {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+}
+body {
+  font-size: 1.6rem;
+}

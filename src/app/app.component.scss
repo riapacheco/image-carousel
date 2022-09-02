@@ -1,0 +1,40 @@
+
+.strap {
+  width: 150px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  min-height: 10rem;
+
+  &.top {
+    border-top: 1px solid black;
+    background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.445), white);
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  &.bottom {
+    border-bottom: 1px solid black;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.591), white);
+    border-radius: 0px 0px 5px 5px;
+  }
+}
+app-image-carousel {
+  border-radius: 6px;
+}
+.carousel-wrapper {
+  position: relative;
+  box-shadow: 4px 8px 18px black;
+  .watch-knob {
+    position: absolute;
+    right: -1.5rem;
+    height: 3rem;
+    width: 1.5rem;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0px 4px 4px 0px;
+
+    top: calc(50% - (3rem / 2));
+
+    background-image: linear-gradient(to bottom right, black, white);
+  }
+}
